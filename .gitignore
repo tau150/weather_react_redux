@@ -3,8 +3,8 @@ bundle.js
 npm-debug.log
 .DS_Store
 
+/src/api_keys.js
+
 # IntelliJ
 *.iml
 /.idea
-
-/.src/api_keys.js
