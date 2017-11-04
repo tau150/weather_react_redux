@@ -1,25 +1,30 @@
-# ReduxSimpleStarter
+#Weather app - React + Redux
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Simple app to try react and redux, some libraries that I used in this project:
 
-### Getting Started
+React
+Redux
+react-redux
+ReduxPromise
+Sparklines
 
-There are two methods for getting started with this repo.
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+## How to try
 
 ```
-> npm install
-> npm start
+git clone https://github.com/tau150/weather_react_redux.git
+register and get your api key at: https://openweathermap.org/api
+```
+
+```
+make a file call api_keys inside 'src' with the following structure:
+
+    const API_KEY_WEATHER = 'YOUR API KEY';
+
+    export default API_KEY_WEATHER;
+```
+```
+npm install
+npm start
+go to http://localhost:8080/webpack-dev-server/
 ```
