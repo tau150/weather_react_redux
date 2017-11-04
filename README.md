@@ -1,18 +1,20 @@
-#Weather app - React + Redux
+# Weather app - React + Redux
 
 Simple app to try react and redux, some libraries that I used in this project:
 
-React
-Redux
-react-redux
-ReduxPromise
-Sparklines
+- React
+- Redux
+- react-redux
+- ReduxPromise
+- Sparklines
+- Google maps
 
 
 ## How to try
 
 ```
 git clone https://github.com/tau150/weather_react_redux.git
+
 register and get your api key at: https://openweathermap.org/api
 ```
 
